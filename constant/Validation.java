@@ -26,5 +26,4 @@ public class Validation {
             printError(errorMessage + " Try again.");
         }
     }
-
 }

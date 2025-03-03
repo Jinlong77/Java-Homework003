@@ -63,7 +63,6 @@ public class Message {
         System.out.printf("\n================ %s INSERT EMPLOYEE %s =================\n", LIGHT_BLUE , RESET);
         System.out.println(BLUE + "Employee Type: " + RESET);
         System.out.println(table.render());
-        System.out.print(LIGHT_GREEN + ENTER_TYPE);
     }
 
     public static void printDisplayEmployees(List<StaffMember> staffMembers, StaffMemberProcessor processor, int start, int end) {

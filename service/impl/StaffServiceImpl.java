@@ -1,7 +1,6 @@
 package service.impl;
 
 import enumeration.EmployeeType;
-import functional.Command;
 import functional.StaffMemberProcessor;
 import model.HourlySalaryEmployee;
 import model.SalariesEmployee;
@@ -27,7 +26,6 @@ public class StaffServiceImpl implements StaffService {
 
     private final StaffRepository staffRepository;
     private final Scanner scanner = new Scanner(System.in);
-    private final Map<String, Command> commands = new HashMap<>();
 
     public StaffServiceImpl(StaffRepository staffRepository) {
         this.staffRepository = staffRepository;

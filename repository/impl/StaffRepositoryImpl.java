@@ -15,7 +15,8 @@ import static utils.StaffUtils.*;
 
 public class StaffRepositoryImpl implements StaffRepository {
 
-    private final List<StaffMember> staffMemberList = new ArrayList<>(Arrays.asList(
+    private final List<StaffMember> staffMemberList = new ArrayList<>(
+            Arrays.asList(
             createHourlySalaryEmployee(1, "John Doe", "123 Main St", 40, 20),
             createVolunteer(2, "Jane Doe", "456 Main St", 40),
             createSalariesEmployee(3, "Tom Smith", "789 Main St", 50000, 2000),
